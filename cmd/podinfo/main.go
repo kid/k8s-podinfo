@@ -2,11 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/spf13/pflag"
-	"github.com/spf13/viper"
 	"github.com/kid/k8s-podinfo/pkg/api"
 	"github.com/kid/k8s-podinfo/pkg/signals"
 	"github.com/kid/k8s-podinfo/pkg/version"
+	"github.com/spf13/pflag"
+	"github.com/spf13/viper"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 	"io/ioutil"
